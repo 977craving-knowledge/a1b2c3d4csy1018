@@ -13,7 +13,8 @@ li{
 	list-style: none;
 }
 header{
-	background: #565656
+	background: #565656;
+	position: center;
 }
 .menubar ul{
 	display: flex;
