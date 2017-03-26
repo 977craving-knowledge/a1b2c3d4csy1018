@@ -8,17 +8,57 @@
 }
 
 .starting_text h3{
-	color: #FFFFFF;
+	color: #FAFAFA;
 	padding: 0%;
-	margin: 1% 0% 0% 0%;
+	margin: 2% 0% 0% 0%;
+	cursor: default;
 	text-shadow: 8px 8px 6px #111;
 }
 
 .main{
 	background: #e0e0e0;
 	width: 100%;
-	padding: 6% 0% 6% 0%;
+	padding: 1.5% 0% 1% 0%;
 	display: flex;
 	flex-flow: row-wrap;
 	justify-content: center;
+}
+
+.main-image{
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.myimage:hover{
+	transition: transform 0.8s ease-in;
+	transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.description{
+	padding: 0% 20% 0% 20%;
+	margin: 0%;
+	width: 60%;
+	cursor: default;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.description h3{
+	padding: 0% 0% 1.8% 0%;
+	margin: 0.1%;
+	font-size: 20px;
+}
+
+@media all and(max-width: 100px){
+	.main{
+		flex-flow: column-wrap;
+		align-items: center;
+	}
+}
+
+@media all and(max-width: 800px){
+	.main{
+		flex-flow: column-wrap;
+		align-items: center;
+	}
 }
