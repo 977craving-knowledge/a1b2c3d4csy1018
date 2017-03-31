@@ -9,7 +9,7 @@ header{
 	  display:flex;
   	flex-flow: row wrap;
   	justify-content: space-between;
-  	background-color: #5fcf80;
+  	background: linear-gradient(to bottom, #ff0000, #480000);
   	width:98%;
   	margin-bottom:0.1%;
   	padding:0.5% 1% 0.5% 1%;
@@ -58,16 +58,16 @@ nav ul li a{
 }
 
 nav ul li a:hover, .active{
-	text-shadow: 8px 8px 4px #202020;	
+	text-shadow: 8px 8px 4px #FFFFFF;	
 }
 
 footer{
 	font-family: "Bree Serif", serif;
 	font-weight: bolder;
 	font-size: 20px;
-	background: #5fcf80;
+  background: linear-gradient(to top, #ff0000, #480000);
   text-align: center;
-  color: #222;
+  color: #FFFFFF;
   width:98%;
   display:flex;
   flex-flow: column wrap;
@@ -79,6 +79,20 @@ footer h4{
   padding: 0%;
   margin: 0%;
   cursor: default;
+}
+
+.links{
+  display: flex;
+  flex-flow: row-wrap;
+}
+
+.links img{
+  margin: 5px;
+}
+
+.links img:hover{
+  transform: scale(1.3, 1.3);
+  transition: transform 0.7s ease;
 }
 
 @media all and (max-width:800px){
@@ -102,9 +116,17 @@ footer h4{
     flex-flow: column wrap;
   }
 
-  .footer{
-    flex-flow: column wrap;
-    align-items: center;
+  .links{
+    display: flex;
+    flex-flow: column-wrap;
+    justify-content: space-between; 
   }
 
+}
+
+@media all and (max-width: 500px){
+  .links{
+    display: flex;
+    flex-flow: column;
+  }
 }

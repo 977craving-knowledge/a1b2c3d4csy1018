@@ -12,7 +12,7 @@
 	padding: 0%;
 	margin: 2.5% 0% 1% 0%;
 	cursor: default;
-	text-shadow: 8px 8px 6px #111;
+	text-shadow: 8px 8px 6px #111111;
 }
 
 .main{
@@ -53,11 +53,28 @@
 		flex-flow: column-wrap;
 		align-items: center;
 	}
+
+	.description{
+		width: 100%;
+		text-align: justify;
+	}
 }
 
 @media all and(max-width: 800px){
 	.main{
 		flex-flow: column-wrap;
 		align-items: center;
+	}
+
+	.description{
+		width: 100%;
+		text-align: justify;
+	}
+}
+
+@media all and (max-width: 450px){
+	.descripton{
+		width: 100%;
+		text-align: justify;
 	}
 }

@@ -1,28 +1,47 @@
+h1{
+	padding: 0%;
+	margin: 7% 0% 0% 0%;
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	color: #fafafa;
+	text-shadow: 8px 8px 6px #111111;
+
+}
+
 .biography{
 	display: flex;
 	flex-flow: row-wrap;
-	padding: 2%;
-}
-
-legend{
-	text-align: center;
-	color: #FAFAFA;
-	text-shadow: 8px 8px 6px #111;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: 'Acme', sans-serif;
+	padding: 1% 15% 8% 15%;
+	margin: 0%;
 }
 
 fieldset{
 	padding: 1%;
 	box-sizing: border-box;
 	border-radius: 8px;
-	border: 2px #111 solid;
+	border: 2px #800000 solid;
 }
 
 article{
 	text-align: justify;
-	text-indent: 10%;
-	font-size: 18px;
+	text-indent: 12%;
+	font-size: 20px;
+	color: #000000;
 	font-weight: bold;
+}
+
+@media all and (max-width: 800px){
+	.biography{
+		padding: 1% 5% 5% 5%;
+		margin: 0%;
+		text-align: justify;
+	}
+}
+
+@media all and (max-width: 500px){
+	.biography{
+		text-align: justify;
+		margin: 0%;
+		padding: 1%;
+	}
 }
