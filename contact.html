@@ -13,21 +13,6 @@
 		<link rel="stylesheet" type="text/css" href="css/common.css">
 		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<!--CSS files added-->
-		<script type="text/javascript">
-		  function validate(fm){
-		    if(fm.name.value==''){
-		      alert('Please Enter Your Name');
-		      fm.name.focus();
-		      return false;
-		    }
-		    if(fm.email.value==''){
-		      alert('Please Enter Your Email Address');
-		      fm.email.focus();
-		      return false;
-		    }
-		  }
-		</script>
-		<!--Javascript validation added-->
 	</head>
 	<body>
 		<!--Start of header-->
@@ -55,17 +40,21 @@
 				<legend>Contact Form</legend>
 				<br>
 				<h3>
-				<label>Name:</label>
+				<label>First Name:</label>
 				<br>
-				<input type="text" name="name" placeholder="Name">
+				<input type="text" name="name" placeholder="First Name" required>
+				<br>
+				<label>Last Name:</label>
+				<br>
+				<input type="text" name="name" placeholder="Last Name" required>
 				<br>
 				<label>Email:</label>
 				<br>
-				<input type="email" name="email" placeholder="Email Address">
+				<input type="email" name="email" placeholder="Email Address" required>
 				<br>
 				<label>Message:</label>
 				<br>
-				<textarea name="message" rows="3" placeholder="Enter Your Messege"></textarea>
+				<textarea name="message" rows="3" placeholder="Enter Your Messege" required></textarea>
 				<!--Textarea for messages is added here-->
 				<br>
 				<input type="submit" name="save" value="Send">
@@ -78,9 +67,7 @@
 		<footer>
 			<div>
 			<h4>
-				Copyright&copy;
-				<br>			
-				All Rights Reserved
+				Copyright&copy; All Rights Reserved
 				<br>
 				Website By: Sandesh Gautam
 				<br>

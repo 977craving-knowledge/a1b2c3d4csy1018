@@ -1,0 +1,28 @@
+.biography{
+	display: flex;
+	flex-flow: row-wrap;
+	padding: 2%;
+}
+
+legend{
+	text-align: center;
+	color: #FAFAFA;
+	text-shadow: 8px 8px 6px #111;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+
+fieldset{
+	padding: 1%;
+	box-sizing: border-box;
+	border-radius: 8px;
+	border: 2px #111 solid;
+}
+
+article{
+	text-align: justify;
+	text-indent: 10%;
+	font-size: 18px;
+	font-weight: bold;
+}
