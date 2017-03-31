@@ -9,7 +9,7 @@ header{
 	  display:flex;
   	flex-flow: row wrap;
   	justify-content: space-between;
-  	background: linear-gradient(to bottom, #ff0000, #480000);
+  	background: linear-gradient(to bottom, #686868, #000000);
   	width:98%;
   	margin-bottom:0.1%;
   	padding:0.5% 1% 0.5% 1%;
@@ -65,7 +65,7 @@ footer{
 	font-family: "Bree Serif", serif;
 	font-weight: bolder;
 	font-size: 20px;
-  background: linear-gradient(to top, #ff0000, #480000);
+  background: linear-gradient(to top, #686868, #000000);
   text-align: center;
   color: #FFFFFF;
   width:98%;
