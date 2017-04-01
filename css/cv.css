@@ -6,7 +6,7 @@
 	padding: 1% 5% 2.5% 0%;
 	margin: 2%;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
@@ -14,7 +14,7 @@
 	padding: 2.5% 5% 1% 0%;
 	margin: 2%;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
@@ -35,11 +35,14 @@ ul{
 	margin: 0%;
 }
 
-li{
-	list-style: none;
+.contents li{
+	list-style: square;
+	list-style-position: outside;
 	font-size: 20px;
 	font-weight: bold;
 	cursor: default;
+	margin: 0%;
+	padding: 0%;
 }
 
 .personal, .education{
@@ -59,7 +62,7 @@ li{
 @media all and (max-width: 800px){
 	.contents_one, .contents_two{
 		display: flex;
-		flex-flow: column-wrap;
+		flex-flow: column wrap;
 	}
 
 	p{

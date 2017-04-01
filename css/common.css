@@ -36,7 +36,7 @@ nav ul{
 	margin: 0%;
 	list-style: none;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-flow: row;
 	justify-content: flex-end;
 }
 
@@ -83,7 +83,7 @@ footer h4{
 
 .links{
   display: flex;
-  flex-flow: row-wrap;
+  flex-flow: row wrap;
 }
 
 .links img{
@@ -118,7 +118,7 @@ footer h4{
 
   .links{
     display: flex;
-    flex-flow: column-wrap;
+    flex-flow: column wrap;
     justify-content: space-between; 
   }
 
