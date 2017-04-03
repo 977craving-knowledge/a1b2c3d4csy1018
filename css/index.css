@@ -8,11 +8,11 @@
 }
 
 .starting_text h3{
-	color: #FAFAFA;
+	color: #000000;
 	padding: 0%;
-	margin: 2.5% 0% 1% 0%;
+	margin: 2.5% 0% 0% 0%;
 	cursor: default;
-	text-shadow: 8px 8px 6px #111111;
+	text-shadow: 8px 8px 6px #686868;
 }
 
 .main{

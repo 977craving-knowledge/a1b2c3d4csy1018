@@ -1,3 +1,20 @@
+.starting_text{
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+}
+
+.starting_text h3{
+	color: #000000;
+	padding: 0%;
+	margin: 2.5% 0% 0% 0%;
+	cursor: default;
+	text-shadow: 8px 8px 6px #686868;
+}
+
 .contents{
 	width: 100%;
 }
@@ -11,6 +28,14 @@
 }
 
 .contents_two{
+	padding: 2.5% 5% 2.5% 0%;
+	margin: 2%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.contents_three{
 	padding: 2.5% 5% 1% 0%;
 	margin: 2%;
 	display: flex;
@@ -25,8 +50,7 @@ p{
 	text-align: justify;
 	padding: 0%;
 	margin: 0%;
-	color: #111;
-	text-shadow: 10px 7px 4px #989898;
+	color: #000000;
 	cursor: default;
 }
 
@@ -52,6 +76,13 @@ ul{
 	box-sizing: border-box;
 }
 
+.coursework, .activity{
+	width: 50%;
+	text-align: justify;
+	padding: 0% 0% 0% 2.5%;
+	box-sizing: border-box;
+}
+
 .skill, .experience{
 	width: 50%;
 	text-align: justify;
@@ -60,7 +91,7 @@ ul{
 }
 
 @media all and (max-width: 800px){
-	.contents_one, .contents_two{
+	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column wrap;
 	}
@@ -69,7 +100,7 @@ ul{
 		text-align: justify;
 	}
 
-	.contents_one ul li, .contents_two ul li{
+	.contents_one ul li, .contents_two ul li, .contents_three ul li{
 		text-align: justify;
 		margin: 0%;
 		padding: 0%
@@ -82,13 +113,13 @@ ul{
 		width: 75%;
 	}
 
-	.personal, .education, .skill, .experience{
+	.personal, .education, .coursework, .activity, .skill, .experience{
 		padding: 5% 0% 5% 0%;
 		box-sizing: border-box;
-		width: 60%
+		width: 90%
 	}
 
-	.contents_one, .contents_two{
+	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column;
 		padding: 0%;
@@ -103,7 +134,7 @@ ul{
 		width: 90%;
 	}
 
-	.contents_one, .contents_two{
+	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column;
 		text-align: justify;
@@ -111,7 +142,7 @@ ul{
 		width: 100%;
 	}
 
-	.personal, .education, .skill, .experience{
+	.personal, .education, .coursework, .activity, .skill, .experience{
 		width: 100%;
 		text-align: justify;
 	}
