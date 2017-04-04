@@ -5,7 +5,7 @@
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.875em;
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
@@ -32,7 +32,7 @@ fieldset{
 }
 /*This is for the styling of the legent tag and it's contents.*/
 legend{
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: 'Acme', sans-serif;
 	color: #000000;
 	margin: 0%;
@@ -82,12 +82,12 @@ textarea{
 border radius, cursor style, font style and other border properties to the corresponding input type.*/
 input[type=submit]{
 	padding: 20px;
-	font-size: 16px;
+	font-size: 1em;
 	margin: 8px 0px;
 	display: inline-block;
 	cursor: pointer;
 	font-family: 'Acme', sans-serif;
-	font-size: 23px;
+	font-size: 1.438em;
 	background-color: #909090;
 	border: 1px solid #000000;
 	border-radius: 5px;

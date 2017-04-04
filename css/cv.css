@@ -5,7 +5,7 @@
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.875em;
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
@@ -51,7 +51,7 @@ like flex property, flex value and content justification.*/
 }
 /*Gives the following properties like font style, text-alignment, text-style and cursor style*/
 p{
-	font-size: 30px;
+	font-size: 1.875em;
 	font-weight: bolder;
 	font-family: 'Acme', sans-serif;
 	text-align: justify;
@@ -69,7 +69,8 @@ ul{
 .contents li{
 	list-style: square;
 	list-style-position: outside;
-	font-size: 20px;
+	font-size: 1.25em;
+	line-height: 1.3em;
 	font-weight: bold;
 	cursor: default;
 	margin: 0%;

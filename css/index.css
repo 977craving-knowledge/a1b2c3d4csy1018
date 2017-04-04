@@ -5,7 +5,7 @@
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.875em;
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
@@ -50,7 +50,8 @@
 .description h3{
 	padding: 0% 0% 1.8% 0%;
 	margin: 0.1%;
-	font-size: 20px;
+	font-size: 1.25em;
+	line-height: 1.22em;
 }
 /*This gives the webpage a responsive design.*/
 /*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 1000 pixels.*/

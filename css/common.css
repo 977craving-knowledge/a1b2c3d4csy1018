@@ -48,7 +48,7 @@ nav ul{
 nav ul li{
 	padding: 0px 10px 0px 10px;
 	background: transparent;
-	font-size: 25px;
+	font-size: 1.563em;
 }
 /*This provides the given parameters to the href attributes.*/
 nav ul li a{
@@ -70,7 +70,7 @@ text alignment, flex property and flex value. Also gives the background a gradie
 footer{
 	font-family: "Bree Serif", serif;
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 1.25em;
   background: linear-gradient(to top, #686868, #000000);
   text-align: center;
   color: #FFFFFF;

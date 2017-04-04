@@ -5,7 +5,7 @@
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.875em;
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
@@ -38,7 +38,8 @@ fieldset{
 article{
 	text-align: justify;
 	text-indent: 12%;
-	font-size: 20px;
+	font-size: 1.25em;
+	line-height: 1.22em;
 	color: #FFFFFF;
 	font-weight: bold;
 	cursor: default;
@@ -68,6 +69,6 @@ article{
 	.biography{
 		text-align: justify;
 		margin: 0%;
-		padding: 1%;
+		padding: 1% 1% 5% 1%;
 	}
 }
