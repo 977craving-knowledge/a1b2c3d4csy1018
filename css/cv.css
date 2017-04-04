@@ -1,3 +1,7 @@
+/*Name: Sandesh Gautam*/
+/*UN ID: 17425103*/
+/*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
+/*Provides various properties to the starting text and also full width.*/
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
@@ -6,7 +10,7 @@
 	margin: 0%;
 	width: 100%;
 }
-
+/*Provides text color, shadow and the cursor style.*/
 .starting_text h3{
 	color: #000000;
 	padding: 0%;
@@ -14,11 +18,12 @@
 	cursor: default;
 	text-shadow: 8px 8px 6px #686868;
 }
-
+/*Provides full width to the contents division.*/
 .contents{
 	width: 100%;
 }
-
+/*Gives the below-mentioned properties to the corresponding division
+like flex property, flex value and content justification.*/
 .contents_one{
 	padding: 1% 5% 2.5% 0%;
 	margin: 2%;
@@ -26,7 +31,8 @@
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-
+/*Gives the below-mentioned properties to the corresponding division
+like flex property, flex value and content justification.*/
 .contents_two{
 	padding: 0.2% 5% 0.2% 0%;
 	margin: 2%;
@@ -34,7 +40,8 @@
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-
+/*Gives the below-mentioned properties to the corresponding division
+like flex property, flex value and content justification.*/
 .contents_three{
 	padding: 2.5% 5% 1% 0%;
 	margin: 2%;
@@ -42,7 +49,7 @@
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-
+/*Gives the following properties like font style, text-alignment, text-style and cursor style*/
 p{
 	font-size: 30px;
 	font-weight: bolder;
@@ -53,12 +60,12 @@ p{
 	color: #000000;
 	cursor: default;
 }
-
+/*Provides the following padding and margin to the unordered list.*/
 ul{
 	padding: 3% 0% 0% 4%;
 	margin: 0%;
 }
-
+/*Provides the following properties  to the list-items of the contents division.*/
 .contents li{
 	list-style: square;
 	list-style-position: outside;
@@ -68,72 +75,76 @@ ul{
 	margin: 0%;
 	padding: 0%;
 }
-
+/*Gives the mentioned property and values to the divisions mentioned below.*/
 .personal, .education{
 	width: 50%;
 	text-align: justify;
 	padding: 0% 0% 0% 2.5%;
 	box-sizing: border-box;
 }
-
+/*Gives the mentioned property and values to the divisions mentioned below.*/
 .coursework, .activity{
 	width: 50%;
 	text-align: justify;
 	padding: 0% 0% 0% 2.5%;
 	box-sizing: border-box;
 }
-
+/*Gives the mentioned property and values to the divisions mentioned below.*/
 .skill, .experience{
 	width: 50%;
 	text-align: justify;
 	padding: 0% 0% 0% 2.5%;
 	box-sizing: border-box;
 }
-
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of
+the webpage reaches equal or below 1000 pixels.*/
 @media all and (max-width: 800px){
+	/*Provides flex property and flex value to the mentioned divisions.*/
 	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column wrap;
 	}
-
+	/*provides text-justification to the text in the following tag.*/
 	p{
 		text-align: justify;
 	}
-
+	/*Provides margin, padding and justigies the text of the following divisions.*/
 	.contents_one ul li, .contents_two ul li, .contents_three ul li{
 		text-align: justify;
 		margin: 0%;
 		padding: 0%
 	}
-
+	/*Provides flex property and flex value to the mentioned division.*/
 	.contents{
 		display: flex;
 		flex-flow: column;
 		padding: 5% 0% 0% 25%;
 		width: 75%;
 	}
-
+	/*Privides the given properties to the contents of the mentioned divisions.*/
 	.personal, .education, .coursework, .activity, .skill, .experience{
 		padding: 5% 0% 5% 0%;
 		box-sizing: border-box;
 		width: 90%
 	}
-
+	/*Provides flex property and flex value to the mentioned divisions.*/
 	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column;
 		padding: 0%;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 730 pixels.*/
 @media all and (max-width: 730px){
+	/*Provides flex property and flex value to the mentioned division.*/
 	.contents{
 		display: flex;
 		flex-flow: column;
 		padding: 5% 0% 0% 5%;
 		width: 90%;
 	}
-
+	/*Provides flex property and flex value to the mentioned divisions.*/
 	.contents_one, .contents_two, .contents_three{
 		display: flex;
 		flex-flow: column;
@@ -141,9 +152,9 @@ ul{
 		padding: 0%;
 		width: 100%;
 	}
-
-	.personal, .education, .coursework, .activity, .skill, .experience{
+	/*Gives the list-items of the corresponding divisions a full width and aligns the text to the left of the webpage.*/
+	.personal ul li, .education ul li, .coursework ul li, .activity ul li, .skill ul li, .experience ul li{
 		width: 100%;
-		text-align: justify;
+		text-align: left;
 	}
 }

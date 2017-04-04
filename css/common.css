@@ -1,10 +1,17 @@
+/*Name: Sandesh Gautam*/
+/*UN ID: 17425103*/
+/*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
+/*This syntax is for the body of the webpage.
+The syntax defines the various parameters of the body like text-font and background color*/
 body{
 	padding: 0%;
 	margin: 0%;
 	background: #e0e0e0;
 	font-family: 'ABeeZee', sans-serif;
 }
-
+/*This syntax contains the properties of the header to give it flex property,
+display it in row(wrapped), will have space between the contets.*/
+/*It also provides background as linear-gradient and also privides it with box shadow.*/
 header{
 	  display:flex;
   	flex-flow: row wrap;
@@ -15,22 +22,20 @@ header{
   	padding:0.5% 1% 0.5% 1%;
   	box-shadow: 0px 4px 35px 2px #202020;
 }
-
+/*The total space in the header occupied by the logo division is 10% of the header.*/
 .logo{
 	width: 10%;
 }
-
-.logo-image{
-	cursor: pointer;
-}
-
+/*This syntax gives the menubar a total of 90% of the space in the header.*/
+/*Gives flex property and also gives it flex value of column(wrapped)*/
 nav{
   width:90%;
   display:flex;
   flex-flow: column wrap;
   justify-content: flex-end;
 }
-
+/*This contains the properties of the navigation unordered list like flex property and flex value.
+Also content-justification style is provided.*/
 nav ul{
 	padding: 1%;
 	margin: 0%;
@@ -39,13 +44,13 @@ nav ul{
 	flex-flow: row;
 	justify-content: flex-end;
 }
-
+/*This assigns the property to the list-items like font-size, padding and backgrount style.*/
 nav ul li{
 	padding: 0px 10px 0px 10px;
 	background: transparent;
 	font-size: 25px;
 }
-
+/*This provides the given parameters to the href attributes.*/
 nav ul li a{
 	font-family: 'Bree Serif', serif;
 	text-decoration: none;
@@ -56,11 +61,12 @@ nav ul li a{
 	font-weight: bolder;
 	transition: text-shadow 0.7s ease;
 }
-
+/*This gives the effect of text-shadow when we hover around the navigationbar list items.*/
 nav ul li a:hover, .active{
 	text-shadow: 8px 8px 4px #FFFFFF;	
 }
-
+/*This assigns varous properties to the footer section of the webpage like font & text style,
+text alignment, flex property and flex value. Also gives the background a gradient property.*/
 footer{
 	font-family: "Bree Serif", serif;
 	font-weight: bolder;
@@ -74,48 +80,50 @@ footer{
   align-items: center;
   padding:0.5% 1% 0.5% 1%;
 }
-
+/*This gives the property to the footer text.*/
 footer h4{
   padding: 0%;
   margin: 0%;
   cursor: default;
 }
-
+/*This gives flex propety and the flex value to the division that consists the social media icons.*/
 .links{
   display: flex;
   flex-flow: row wrap;
 }
-
+/*This provides margin around the social media icons.*/
 .links img{
   margin: 5px;
 }
-
+/*This makes the icons enlarge when we hover around the social media icons(images)*/
 .links img:hover{
   transform: scale(1.3, 1.3);
   transition: transform 0.7s ease;
 }
-
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 800 pixels.*/
 @media all and (max-width:800px){
+  /*Gives the header flex property and a flex value.*/
   header{
     display:flex;
     flex-flow: column wrap;
   }
-
+  /*Gives the logo the a witdh of 100%.*/
   .logo{
     width:100%;
     text-align: center;
   }
-
+  /*Gives the navigation bar the width of 100%.*/
   nav{
     width:100%;
     text-align: center;
   }
-
+  /*Provides the unordered list a flex property and flex value.*/
   nav ul{
     display:flex;
     flex-flow: column wrap;
   }
-
+  /*Provides flex property and flex value. Also the content-justification style.*/
   .links{
     display: flex;
     flex-flow: column wrap;
@@ -123,8 +131,9 @@ footer h4{
   }
 
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 500 pixels.*/
 @media all and (max-width: 500px){
+  /*Provides flex property and flex value.*/
   .links{
     display: flex;
     flex-flow: column;

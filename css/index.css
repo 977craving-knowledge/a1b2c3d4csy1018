@@ -1,3 +1,7 @@
+/*Name: Sandesh Gautam*/
+/*UN ID: 17425103*/
+/*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
+/*Provides various properties to the starting text and also full width.*/
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
@@ -6,7 +10,7 @@
 	margin: 0%;
 	width: 100%;
 }
-
+/*Provides text color, shadow and the cursor style.*/
 .starting_text h3{
 	color: #000000;
 	padding: 0%;
@@ -14,7 +18,8 @@
 	cursor: default;
 	text-shadow: 8px 8px 6px #686868;
 }
-
+/*Gives various properties to the main division of the index page.*/
+/*Gives flex property, flex value, background color, full width and content-justification to the contents.*/
 .main{
 	background: #e0e0e0;
 	width: 100%;
@@ -23,16 +28,16 @@
 	flex-flow: row wrap;
 	justify-content: center;
 }
-
+/*Gives the default cursor property.*/
 .main-image{
 	cursor: pointer;
 }
-
+/*Gives the image a css property to increase its size when it's hovered upon.*/
 .myimage:hover{
 	transition: transform 0.8s ease-in;
 	transform: scale3d(1.05, 1.05, 1.05);
 }
-
+/*Gives the default cursor property, makes the text bold and justifies the text.*/
 .description{
 	padding: 0% 20% 2% 20%;
 	margin: 0%;
@@ -41,38 +46,42 @@
 	font-weight: bolder;
 	text-align: justify;
 }
-
+/*Gives padding, margin and font size to the corresponding heading.*/
 .description h3{
 	padding: 0% 0% 1.8% 0%;
 	margin: 0.1%;
 	font-size: 20px;
 }
-
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 1000 pixels.*/
 @media all and (max-width: 1000px){
+	/*Gives flex value and aligns the items to the center of the page.*/
 	.main{
 		flex-flow: column wrap;
 		align-items: center;
 	}
-
+	/*Gives the description a width of 60% and justifies the text of the division.*/
 	.description{
 		width: 60%;
 		text-align: justify;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 800 pixels.*/
 @media all and (max-width: 800px){
+	/*Gives the flex value and aligns the items to the center of the page.*/
 	.main{
 		flex-flow: column wrap;
 		align-items: center;
 	}
-
+	/*Gives the description a width of 60% and justifies the text of the division.*/
 	.description{
 		width: 60%;
 		text-align: justify;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 450 pixels.*/
 @media all and (max-width: 450px){
+	/*Gives a full width to the corresponding division and also justifies the text.*/
 	.descripton{
 		width: 100%;
 		text-align: justify;

@@ -1,3 +1,7 @@
+/*Name: Sandesh Gautam*/
+/*UN ID: 17425103*/
+/*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
+/*Provides various properties to the starting text and also full width.*/
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
@@ -6,7 +10,7 @@
 	margin: 0%;
 	width: 100%;
 }
-
+/*Provides text color, shadow and the cursor style.*/
 .starting_text h3{
 	color: #000000;
 	padding: 0%;
@@ -14,22 +18,23 @@
 	cursor: default;
 	text-shadow: 8px 8px 6px #686868;
 }
-
+/*Provides flex property and flex value to the corresponding division.*/
 .biography{
 	display: flex;
 	flex-flow: row wrap;
 	padding: 1% 20% 6% 20%;
 	margin: 0%;
 }
-
+/*Gives the fielset tag the following styles.*/
 fieldset{
 	background-color: #151515;
 	padding: 1%;
 	box-sizing: border-box;
 	border-radius: 8px;
 	border: 3px #000000 solid;
+	box-shadow: 12px 12px 20px #686868;
 }
-
+/*Gives th following properties to the article tag.*/
 article{
 	text-align: justify;
 	text-indent: 12%;
@@ -38,24 +43,28 @@ article{
 	font-weight: bold;
 	cursor: default;
 }
-
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 1000 pixels.*/
 @media all and (max-width: 1000px){
+	/*Provides text justification, margin and padding to the biography division.*/
 	.biography{
 		padding: 1% 15% 5% 15%;
 		margin: 0%;
 		text-align: justify;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 800 pixels.*/
 @media all and (max-width: 800px){
+	/*Provides text justification, margin and padding to the biography division.*/
 	.biography{
 		padding: 1% 5% 5% 5%;
 		margin: 0%;
 		text-align: justify;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 500 pixels.*/
 @media all and (max-width: 500px){
+	/*Provides text justification, margin and padding to the biography division.*/
 	.biography{
 		text-align: justify;
 		margin: 0%;

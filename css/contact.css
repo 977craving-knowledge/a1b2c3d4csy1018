@@ -1,3 +1,7 @@
+/*Name: Sandesh Gautam*/
+/*UN ID: 17425103*/
+/*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
+/*Provides various properties to the starting text and also full width.*/
 .starting_text{
 	font-family: 'Acme', sans-serif;
 	text-align: center;
@@ -6,7 +10,7 @@
 	margin: 0%;
 	width: 100%;
 }
-
+/*Provides text color, shadow and the cursor style.*/
 .starting_text h3{
 	color: #000000;
 	padding: 0%;
@@ -14,18 +18,19 @@
 	cursor: default;
 	text-shadow: 8px 8px 6px #686868;
 }
-
+/*Gives the following padding and mardin value to the form division.*/
 .form{
 	padding: 4% 20%;
 	margin: 0%;
 }
-
+/*This is for the styling of the fieldset tag.*/
 fieldset{
-	background: #d8d8d8;
+	background: #c8c8c8;
 	border-radius: 15px;
 	box-sizing: border-box;
+	border: 2px #151515 solid;
 }
-
+/*This is for the styling of the legent tag and it's contents.*/
 legend{
 	font-size: 20px;
 	font-family: 'Acme', sans-serif;
@@ -35,12 +40,13 @@ legend{
 	text-align: center;
 	cursor: default;
 }
-
+/*This is to provide the label tag with 0% margin and 0% padding.*/
 label{
 	margin: 0%;
 	padding: 0%;
 }
-
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
+border radius and other border properties to the corresponding input type.*/
 input[type=text]{
 	width: 97%;
 	padding: 16px;
@@ -50,7 +56,8 @@ input[type=text]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
-
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
+border radius and other border properties to the corresponding input type.*/
 input[type=email]{
 	width: 97%;
 	padding: 16px;
@@ -60,7 +67,8 @@ input[type=email]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
-
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
+border radius and other border properties to the corresponding input type.*/
 textarea{
 	width: 97%;
 	padding: 16px;
@@ -70,7 +78,8 @@ textarea{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
-
+/*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
+border radius, cursor style, font style and other border properties to the corresponding input type.*/
 input[type=submit]{
 	padding: 20px;
 	font-size: 16px;
@@ -84,20 +93,23 @@ input[type=submit]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
-
+/*This gives the transistion property to the submit button when we hover the cursor upon it.*/
 input[type=submit]:hover{
 	background-color: #000000;
 	color: #FFFFFF;
 }
-
+/*This gives the webpage a responsive design.*/
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 800 pixels.*/
 @media all and (max-width: 800px){
+	/*Provides the mentioned padding and margin values to the division:form*/
 	.form{
 		margin: 1%;
 		padding: 2% 5% 2% 5%;
 	}
 }
-
+/*This changes the alignments or the format of the contents when the width of the webpage reaches equal or below 500 pixels.*/
 @media all and (max-width: 500px){
+	/*Provides the mentioned padding and margin values to the division:form*/
 	.form{
 		margin: 1%;
 		padding: 2%;
