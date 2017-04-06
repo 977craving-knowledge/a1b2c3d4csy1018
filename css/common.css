@@ -63,7 +63,7 @@ nav ul li a{
 }
 /*This gives the effect of text-shadow when we hover around the navigationbar list items.*/
 nav ul li a:hover, .active{
-	text-shadow: 8px 8px 4px #FFFFFF;	
+	text-shadow: 6px 6px 5px #FFFFFF;	
 }
 /*Provides various properties to the starting text and also full width.*/
 .starting_text{
