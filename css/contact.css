@@ -1,23 +1,6 @@
 /*Name: Sandesh Gautam*/
 /*UN ID: 17425103*/
 /*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
-/*Provides various properties to the starting text and also full width.*/
-.starting_text{
-	font-family: 'Acme', sans-serif;
-	text-align: center;
-	font-size: 1.875em;
-	padding: 0%;
-	margin: 0%;
-	width: 100%;
-}
-/*Provides text color, shadow and the cursor style.*/
-.starting_text h3{
-	color: #000000;
-	padding: 0%;
-	margin: 2.5% 0% 0% 0%;
-	cursor: default;
-	text-shadow: 8px 8px 6px #686868;
-}
 /*Gives the following padding and mardin value to the form division.*/
 .form{
 	padding: 4% 20%;
@@ -47,6 +30,7 @@ label{
 }
 /*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
 border radius and other border properties to the corresponding input type.*/
+/*(w3schools, 2017)*/
 input[type=text]{
 	width: 97%;
 	padding: 16px;
@@ -56,6 +40,7 @@ input[type=text]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
+/*(w3schools, 2017)*/
 /*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
 border radius and other border properties to the corresponding input type.*/
 input[type=email]{
@@ -67,6 +52,7 @@ input[type=email]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
+/*(w3schools, 2017)*/
 /*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
 border radius and other border properties to the corresponding input type.*/
 textarea{
@@ -78,6 +64,7 @@ textarea{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
+/*(w3schools, 2017)*/
 /*This gives various stylings like inline-block (which auto-adjusts the block size when the browser is resized), 
 border radius, cursor style, font style and other border properties to the corresponding input type.*/
 input[type=submit]{
@@ -93,6 +80,7 @@ input[type=submit]{
 	border-radius: 5px;
 	box-sizing: border-box;
 }
+/*(w3schools, 2017)*/
 /*This gives the transistion property to the submit button when we hover the cursor upon it.*/
 input[type=submit]:hover{
 	background-color: #000000;
@@ -115,3 +103,4 @@ input[type=submit]:hover{
 		padding: 2%;
 	}
 }
+/*W3schools(2017)CSS Forms[Online] Available From:https://www.w3schools.com*/

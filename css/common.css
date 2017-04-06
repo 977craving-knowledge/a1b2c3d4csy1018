@@ -65,6 +65,23 @@ nav ul li a{
 nav ul li a:hover, .active{
 	text-shadow: 8px 8px 4px #FFFFFF;	
 }
+/*Provides various properties to the starting text and also full width.*/
+.starting_text{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 1.875em;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+/*Provides text color, shadow and the cursor style.*/
+.starting_text h3{
+  color: #000000;
+  padding: 0%;
+  margin: 2.5% 0% 0% 0%;
+  cursor: default;
+  text-shadow: 8px 8px 6px #686868;
+}
 /*This assigns varous properties to the footer section of the webpage like font & text style,
 text alignment, flex property and flex value. Also gives the background a gradient property.*/
 footer{

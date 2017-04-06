@@ -1,23 +1,6 @@
 /*Name: Sandesh Gautam*/
 /*UN ID: 17425103*/
 /*https://977craving-knowledge.github.io/a1b2c3d4csy1018/*/
-/*Provides various properties to the starting text and also full width.*/
-.starting_text{
-	font-family: 'Acme', sans-serif;
-	text-align: center;
-	font-size: 1.875em;
-	padding: 0%;
-	margin: 0%;
-	width: 100%;
-}
-/*Provides text color, shadow and the cursor style.*/
-.starting_text h3{
-	color: #000000;
-	padding: 0%;
-	margin: 2.5% 0% 0% 0%;
-	cursor: default;
-	text-shadow: 8px 8px 6px #686868;
-}
 /*Provides flex property and flex value to the corresponding division.*/
 .biography{
 	display: flex;
